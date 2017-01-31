@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.datos.practica" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Datos Practica Modulo 5</name>
+    <description>
+        Datos Modulo 5 Curso Apps Moviles
+    </description>
+    <author email="mi@mail.com" href="http://phonegap.com">
+        Francisco Jose Castro Colodrero
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="iosPersistentFileLocation" value="Library" />
+    <preference name="iosPersistentFileLocation" value="Compatibility" />
+    <preference name="AndroidPersistentFileLocation" value="Internal" />
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <preference name="iosExtraFilesystems" value="library,library-nosync,documents,documents-nosync,cache,bundle,root" />
+    <preference name="AndroidExtraFilesystems" value="files,files-external,documents,sdcard,cache,cache-external,root" />   
+</widget> 

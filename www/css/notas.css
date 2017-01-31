@@ -1,0 +1,85 @@
+body {
+    background: lightyellow;
+}
+
+.notes-list-container {
+    padding: 10px;
+}
+
+.notes-list {
+    margin-bottom: 10px;
+}
+
+.note-item {
+    margin-top: 2px;
+    background: yellow;
+    border: 1px solid block;
+}
+
+.note-editor {
+    display: none;
+    padding: 10px;
+}
+
+.titulo {
+    width: 100%;
+}
+
+.comentario {
+    width: 100%;
+}
+
+.comentario {
+    width: 100%;
+}
+
+.header {
+    padding: 0 10px;
+    color: #666;
+    text-align: center;
+    height: 48.4px;
+    line-height: 48.4px;
+}
+
+.fecha-titulo {
+    text-align: left;
+    color: black;
+    position: absolute;
+    font-size: 12px;    
+}
+
+.conexion {
+    text-align: right;
+    color: brown;
+    position: absolute;
+    right: 35px;   /* must be equal to parent's right padding */  
+    font-size: 12px;
+}
+
+.conexion-tipo {
+    text-align: right;
+    color: brown;
+    position: absolute;
+    right: 5px;   /* must be equal to parent's right padding */  
+    font-size: 12px;
+}
+
+@media all and (max-width: 800px) {
+.conexion-tipo{
+    right: 2px;   /* must be equal to parent's right padding */  
+    font-size: 7px; 
+    }  
+.conexion{
+    right: 18px;   /* must be equal to parent's right padding */
+    font-size: 7px; 
+    }      
+}
+
+.footer {
+    padding: 5px;
+    font-style: italic;
+    font-size: small;
+    text-align: center;
+}
+
+
